@@ -1,11 +1,12 @@
 {
     "project_name": "Data Journalism Project",
     "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
-    "project_description": "A template for data journalism projects using Python, Quarto, and uv",
+    "project_description": "A structured data journalism project template for immediate use.",
     "project_author": "Your Name",
     "project_license": ["MIT License", "GNU General Public License v3"],
     "operating_system": ["Linux", "MacOS", "Windows"],
     "setup_project": ["Yes - Create a virtual environment and install packages", "No"],
     "initialize_git": ["Yes", "No"]
 }
+
 

@@ -1,3 +1,24 @@
+import 
+# Define the directory structure
+DIRS = [
+    "data",
+    "data/raw",
+    "data/processed",
+    "docs",
+    "docs/references",
+    "docs/reports",
+    "notebooks",
+    "outputs",
+    "outputs/figures",
+    "outputs/tables",
+    "quarto",
+    "src"
+]
+
+# Create directories
+for dir_path in DIRS:
+    os.makedirs(dir_path, exist_ok=True)
+
 import os
 
 # Define the directory structure
@@ -35,4 +56,3 @@ for file in FILES:
     with open(file, "w") as f:
         f.write("")
 
-  
